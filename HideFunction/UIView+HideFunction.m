@@ -7,6 +7,7 @@
 //
 
 #import "UIView+HideFunction.h"
+#import <objc/runtime.h>
 
 static char PWDSTR;
 static char GridTypeStr;

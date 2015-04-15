@@ -14,6 +14,7 @@
 		00AFC43F1ADE3457002C331A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00AFC43E1ADE3457002C331A /* Images.xcassets */; };
 		00AFC4421ADE3457002C331A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AFC4401ADE3457002C331A /* LaunchScreen.xib */; };
 		00AFC44E1ADE3457002C331A /* HideFunctionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AFC44D1ADE3457002C331A /* HideFunctionTests.m */; };
+		00AFC45A1ADE35AC002C331A /* UIView+HideFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AFC4591ADE35AC002C331A /* UIView+HideFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		00AFC4471ADE3457002C331A /* HideFunctionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideFunctionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00AFC44C1ADE3457002C331A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00AFC44D1ADE3457002C331A /* HideFunctionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideFunctionTests.m; sourceTree = "<group>"; };
+		00AFC4581ADE35AC002C331A /* UIView+HideFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HideFunction.h"; sourceTree = "<group>"; };
+		00AFC4591ADE35AC002C331A /* UIView+HideFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HideFunction.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		00AFC4301ADE3456002C331A /* HideFunction */ = {
 			isa = PBXGroup;
 			children = (
+				00AFC4571ADE359E002C331A /* src */,
 				00AFC4351ADE3456002C331A /* AppDelegate.h */,
 				00AFC4361ADE3457002C331A /* AppDelegate.m */,
 				00AFC4381ADE3457002C331A /* ViewController.h */,
@@ -117,6 +121,15 @@
 				00AFC44C1ADE3457002C331A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00AFC4571ADE359E002C331A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				00AFC4581ADE35AC002C331A /* UIView+HideFunction.h */,
+				00AFC4591ADE35AC002C331A /* UIView+HideFunction.m */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AFC45A1ADE35AC002C331A /* UIView+HideFunction.m in Sources */,
 				00AFC43A1ADE3457002C331A /* ViewController.m in Sources */,
 				00AFC4371ADE3457002C331A /* AppDelegate.m in Sources */,
 				00AFC4341ADE3456002C331A /* main.m in Sources */,
@@ -418,6 +432,7 @@
 				00AFC4531ADE3457002C331A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00AFC4541ADE3457002C331A /* Build configuration list for PBXNativeTarget "HideFunctionTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				00AFC4561ADE3457002C331A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

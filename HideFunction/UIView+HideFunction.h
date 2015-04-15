@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 lookfeel. All rights reserved.
 //
 
-#import "CommonHeader.h"
+#import <UIKit/UIKit.h>
 
 typedef enum{
     HideFunctionFourGrid = 4,
